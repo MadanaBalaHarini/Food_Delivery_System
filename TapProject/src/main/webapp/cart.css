@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0B1320;    
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------- Cart Container ----------- */
+.cart-box {
+    width: 420px;
+    margin: 40px auto;
+    background: #111827;     
+    padding: 25px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+/* ----------- Item Box ----------- */
+.item {
+    background: #1F2937;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Name + Price */
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+    color: #FACC15;  /* Yellow price */
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* ----------- Quantity Buttons ----------- */
+.qty-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 12px;
+}
+
+.qty-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: #374151;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.qty-btn:hover {
+    background: #4B5563;
+}
+
+/* Quantity number styling */
+.qty-count {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Delete (X) button */
+.delete-btn {
+
+    color:red; margin-left:auto; cursor:pointer; text-decoration:none; font-weight:bold;
+}
+
+/* ----------- Summary Area ----------- */
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Total */
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ----------- Main Buttons ----------- */
+
+.btn {
+    width: 220px;              
+    padding: 12px 20px;
+    background: #06B6D4;        
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px auto;          
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: block;             
+}
+
+.btn:hover {
+    background:#0891B2;        
+}
+
+.add-more {
+    background: #1F2937;  
+    color: white;
+}
+
+.add-more:hover {
+    background: #374151;
+}
+

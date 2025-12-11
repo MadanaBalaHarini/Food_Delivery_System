@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+    :root{
+      --bg:#0f1724; 
+      --card:#0b1220;
+      --muted:#94a3b8;
+      --accent:#06b6d4;
+      --glass: rgba(255,255,255,0.04);
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: white;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 60px auto;
+        background: var(--card);
+        padding: 40px;
+        border-radius: 18px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+        text-align: center;
+        border: 1px solid var(--glass);
+    }
+
+    h1 {
+        font-size: 32px;
+        color: var(--accent);
+        margin-bottom: 20px;
+        text-shadow: 0 0 10px rgba(6,182,212,0.5);
+    }
+
+    p {
+        font-size: 18px;
+        color: var(--muted);
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .contact-box {
+        background: var(--accent);
+        color: #000;
+        padding: 15px 22px;
+        border-radius: 10px;
+        font-size: 18px;
+        display: inline-block;
+        font-weight: bold;
+        box-shadow: 0 4px 14px rgba(6,182,212,0.6);
+    }
+
+    .faq {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .faq h2 {
+        font-size: 24px;
+        color: var(--accent);
+        margin-bottom: 10px;
+        text-shadow: 0 0 8px rgba(6,182,212,0.5);
+    }
+
+    .faq p {
+        font-size: 16px;
+        color: var(--muted);
+        margin-left: 10px;
+    }
