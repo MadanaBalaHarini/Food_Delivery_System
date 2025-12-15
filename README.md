@@ -22,16 +22,57 @@ A full-stack web application built using Java, JSP, Servlets, DAO Design Pattern
 -> Server: Apache Tomcat
 -> Tools: Eclipse IDE/ MySQL Workbench
 
-# Key Features
+# Project Architecture
 
--> User Authentication (Login & Registration)
--> Restaurant Page with Menu Display
--> Add-to-Cart Flow
--> Cart Management
--> Secure Order Placement
--> Modular DAO Layer for DB operations
+The application follows the MVC architecture:
+
+-> Model: Java classes representing entities like User, Restaurant, Menu, Order
+-> DAO Layer: Handles all database operations using JDBC
+-> Controller: Servlets manage business logic and request handling
+-> View: JSP pages used for UI rendering
+
+# Project Flow
+
+1. User registers or logs into the system
+2. User views available restaurants
+3. Selects a restaurant and views menu items
+4. Adds food items to the cart
+5. Reviews cart and places the order
+6. Order details are stored in the database
+
+# Database Details
+
+Database: MySQL
+
+Tables used:
+  -> users
+  -> restaurants
+  -> menu
+  -> cart
+  -> orders
+  -> order_items
+
+# Future Enhancements
+
+-> Online payment integration
+-> Order tracking system
+-> Role-based access (Admin, Customer, Delivery)
+-> REST API integration
+-> Improved UI using modern frameworks
+
 
 # Demo Video
 
 You can watch the complete project demo here:
 [https://www.linkedin.com/feed/update/urn:li:activity:7404825999747575808/]
+
+## Author
+BalaHarini M 
+Computer Science Student  
+GitHub: https://github.com/MadanaBalaHarini  
+LinkedIn: https://www.linkedin.com/in/madana-balaharini-722b47268/
+
+## License
+This project is for educational purposes.
+
+
